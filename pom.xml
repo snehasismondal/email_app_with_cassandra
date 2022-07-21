@@ -47,6 +47,18 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+	<dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-cassandra</artifactId>
+    </dependency>
+    
+    <dependency>
+   <groupId>org.ocpsoft.prettytime</groupId>
+   <artifactId>prettytime-integration-jsf</artifactId>
+   <version>5.0.2.Final</version>
+</dependency>
+    
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
